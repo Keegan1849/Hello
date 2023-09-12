@@ -1,7 +1,8 @@
 public class Main {
-    public static void main(String[] args) {
-
-        System.out.println("Hello friends");
-        System.out.println("Have a cigar");
+    public static void main(String[] args)
+    {
+        String greeting = "Hello Joe, what do you know? ";
+        System.out.println(greeting);
+        System.out.println(greeting + "Have a cigar");
     }
 }
